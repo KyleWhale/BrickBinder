@@ -26,17 +26,17 @@ typedef NS_ENUM(NSInteger, BrickBinderState) {
 @class BrickBinder;
 @protocol BrickBinderProtocol <NSObject>
 @optional
-- (void)brickBinder:(BrickBinder *)brickBinder cpopb:(UIButton *)popBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder ccb:(UIButton *)closeBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn ocsrb:(UIButton *)shareBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn ocsnb:(UIButton *)screenButton;
-- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn ocstb:(UIButton *)subtitleBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder atmtb:(UIButton *)subtitleBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder lkbn:(UIButton *)lkbn;
-- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn occlnb:(UIButton *)collectionBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder onbn:(UIButton *)collectionBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder ontbn:(UIButton *)collectionBtn;
-- (void)brickBinder:(BrickBinder *)brickBinder ckfsbn:(UIButton *)fullScreenBtn;
+- (void)brickBinder:(BrickBinder *)brickBinder cpopb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder ccb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn ocsrb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn ocsnb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn ocstb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder atmtb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder lkbn:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder flsrn:(BOOL)flsrn occlnb:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder onbn:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder ontbn:(UIButton *)button;
+- (void)brickBinder:(BrickBinder *)brickBinder ckfsbn:(UIButton *)button;
 - (void)brickBinder:(BrickBinder *)brickBinder sgtpd:(UITapGestureRecognizer *)singleTap;
 - (void)brickBinder:(BrickBinder *)brickBinder dbtpd:(UITapGestureRecognizer *)doubleTap;
 - (void)brickBinderError:(BrickBinder *)brickBinder state:(BrickBinderState)state;
